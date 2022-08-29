@@ -17,8 +17,8 @@ body {
     transform-style: preserve-3d;
     transform: rotateX(0deg) translateX(-110px);
     position: absolute;
-    animation: flip 5s linear infinite;
-    /* animation: impossible 4s linear infinite; */
+    /* animation: flip 5s linear infinite; */
+    animation: impossible 4s linear infinite;
     transform-origin: 110px 0 0;
 }
 
