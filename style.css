@@ -18,8 +18,8 @@ body {
     transform: rotateX(0deg) translateX(-110px);
     position: absolute;
     animation: flip 5s linear infinite;
+    /*animation: treeFlip 5s linear infinite;*/
     transform-origin: 110px 0 0;
-    /* visibility: hidden; */
 }
 
 .container .skateboard .deck {
@@ -85,7 +85,6 @@ body {
     position: absolute;
     width: 70px;
     height: 80px;
-    /* opacity: .7; */
 }
 
 .container .skateboard .deck .layer1 .tail,
@@ -109,7 +108,6 @@ body {
     position: absolute;
     width: 220px;
     height: 80px;
-    /* opacity: .7; */
     transform: translateZ(0px) translateX(0px) translateY(-40px);
 }
 
@@ -144,6 +142,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*@keyframes treeFlip {*/
+/*    0% {*/
+/*        top: 240px;*/
+/*        transform: translateX(-500px) rotateX(74deg)*/
+/*    }*/
+/*    50% {*/
+/*        top: 0;*/
+/*        transform: translateX(0px) rotateX(254deg)*/
+/*    }*/
+/*    100% {*/
+/*        top: 240px;*/
+/*        transform: translateX(500px) rotateX(434deg)*/
+/*    }*/
+/*}*/
 
 @keyframes flip {
     0% {
