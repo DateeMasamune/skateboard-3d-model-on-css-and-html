@@ -17,8 +17,8 @@ body {
     transform-style: preserve-3d;
     transform: rotateX(0deg) translateX(-110px);
     position: absolute;
-    /* animation: flip 5s linear infinite; */
-    animation: impossible 4s linear infinite;
+    animation: flip 5s linear infinite;
+    /* animation: impossible 4s linear infinite; */
     transform-origin: 110px 0 0;
 }
 
@@ -204,23 +204,21 @@ body {
     0% {
         top: 240px;
         transform: translateX(-500px) rotateX(74deg) rotateY(360deg);
-        transform-origin: right;
     }
 
     20% {
-        top: 240px;
+        top: 150px;
         transform: translateX(-300px) rotateX(74deg) rotateY(320deg);
-        transform-origin: right;
     }
 
     40% {
         top: 0;
-        transform: translateX(-100px) rotateX(100deg) rotateY(370deg);
+        transform: translateX(-100px) rotateX(150кdeg) rotateY(370deg);
         transform-origin: 110px 0 0;
     }
 
     50% {
-        top: 50px;
+        top: 0;
         transform: translateX(-50px) rotateX(450deg) rotateY(370deg);
         transform-origin: 110px 0 0;
     }
