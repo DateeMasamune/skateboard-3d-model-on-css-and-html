@@ -17,8 +17,8 @@ body {
     transform-style: preserve-3d;
     transform: rotateX(0deg) translateX(-110px);
     position: absolute;
-    animation: flip 5s linear infinite;
-    /*animation: treeFlip 5s linear infinite;*/
+    /* animation: flip 5s linear infinite; */
+    animation: impossible 3s linear infinite;
     transform-origin: 110px 0 0;
 }
 
@@ -143,20 +143,62 @@ body {
     align-items: center;
 }
 
-/*@keyframes treeFlip {*/
-/*    0% {*/
-/*        top: 240px;*/
-/*        transform: translateX(-500px) rotateX(74deg)*/
-/*    }*/
-/*    50% {*/
-/*        top: 0;*/
-/*        transform: translateX(0px) rotateX(254deg)*/
-/*    }*/
-/*    100% {*/
-/*        top: 240px;*/
-/*        transform: translateX(500px) rotateX(434deg)*/
-/*    }*/
-/*}*/
+@keyframes impossible {
+    0% {
+        top: 240px;
+        transform: translateX(-500px) rotateX(74deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    10% {
+        top: 190px;
+        transform: translateX(-400px) rotateX(74deg) rotateY(-45deg) rotateZ(0deg);
+    }
+
+    20% {
+        top: 0;
+        transform: translateX(-300px) rotateX(74deg) rotateY(-45deg) rotateX(60deg) rotateZ(90deg);
+    }
+
+    30% {
+        top: 0;
+        transform: translateX(-200px) rotateX(74deg) rotateY(-45deg) rotateX(60deg) rotateZ(360deg);
+    }
+
+    40% {
+        top: 240px;
+        transform: translateX(-100px) rotateX(74deg) rotateY(0deg) rotateX(0deg) rotateZ(360deg);
+    }
+
+    50% {
+        top: 240px;
+        transform: translateX(0px) rotateX(74deg) rotateY(0deg) rotateX(0deg) rotateZ(360deg);
+    }
+
+    60% {
+        top: 240px;
+        transform: translateX(100px) rotateX(74deg) rotateY(0deg) rotateX(0deg) rotateZ(360deg);
+    }
+
+    70% {
+        top: 240px;
+        transform: translateX(200px) rotateX(74deg) rotateY(0deg) rotateX(0deg) rotateZ(360deg);
+    }
+
+    80% {
+        top: 240px;
+        transform: translateX(300px) rotateX(74deg) rotateY(0deg) rotateX(0deg) rotateZ(360deg);
+    }
+
+    90% {
+        top: 240px;
+        transform: translateX(400px) rotateX(74deg) rotateY(0deg) rotateX(0deg) rotateZ(360deg);
+    }
+
+    100% {
+        top: 240px;
+        transform: translateX(500px) rotateX(74deg) rotateY(0deg) rotateX(0deg) rotateZ(360deg);
+    }
+}
 
 @keyframes flip {
     0% {
