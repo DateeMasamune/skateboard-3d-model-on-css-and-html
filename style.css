@@ -18,7 +18,7 @@ body {
     transform: rotateX(0deg) translateX(-110px);
     position: absolute;
     /* animation: flip 5s linear infinite; */
-    animation: impossible 3s linear infinite;
+    animation: impossible 4s linear infinite;
     transform-origin: 110px 0 0;
 }
 
@@ -161,7 +161,7 @@ body {
 
     30% {
         top: 0;
-        transform: translateX(-200px) rotateX(74deg) rotateY(-45deg) rotateX(60deg) rotateZ(360deg);
+        transform: translateX(-200px) rotateX(74deg) rotateY(0deg) rotateX(60deg) rotateZ(360deg);
     }
 
     40% {
