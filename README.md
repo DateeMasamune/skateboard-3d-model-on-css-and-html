@@ -2,6 +2,6 @@
 ***
 #### made with css html :skateboard:
 *** 
-#### just open index.html in browser :skateboard:
+#### just open index.html in browser 
 ***
-#### to change the animation, you need to change the variable with name "trick" in index.js to the name from the list of tricks, you can also change the animation time in the variable "duration" :skateboard:
+#### to change the animation, you need to change the variable with name "trick" in index.js to the name from the list of tricks, you can also change the animation time in the variable "duration"
