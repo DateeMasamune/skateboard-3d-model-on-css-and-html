@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",  () => {
 
-  const trick = 'treeFlip' //написать название анимации из списка ниже
+  const trick = 'varialHellFlip' //написать название анимации из списка ниже
 
   const duration = 5 //длительность анимации
 
@@ -19,4 +19,5 @@ document.addEventListener("DOMContentLoaded",  () => {
  * hardFlip
  * treeFlip
  * popShuvit
+ * varialHellFlip
  */
