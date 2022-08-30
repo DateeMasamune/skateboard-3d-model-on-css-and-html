@@ -478,7 +478,7 @@ body {
     }
 }
 
-@keyframes varialHellFlip {
+@keyframes varialHeelFlip {
     0% {
         top: 240px;
         transform: translateX(-500px) rotateX(74deg) rotateY(0deg) rotateZ(0deg) rotateX(0deg);
