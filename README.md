@@ -1,6 +1,6 @@
 # this is a skateboard 3d model  :skateboard:
 ***
-#### made with css html :skateboard:
+#### made with css html
 *** 
 #### just open index.html in browser 
 ***
