@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded",  () => {
 
-  const trick = 'treeFlip' //написать названию анимации из списка ниже
+  const trick = 'treeFlip' //написать название анимации из списка ниже
 
   const duration = 5 //длительность анимации
 
