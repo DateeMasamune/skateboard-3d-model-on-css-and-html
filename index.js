@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function () {
 
-  const trick = 'impossible' //написать названию анимации из списка ниже
+  const trick = 'treeFlip' //написать названию анимации из списка ниже
 
-  const duration = 4 //длительность анимации
+  const duration = 5 //длительность анимации
 
   const skateboard = document.querySelector('.skateboard')
 
@@ -15,4 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
  * 
  * flip
  * impossible
+ * ollie
+ * hardFlip
+ * treeFlip
  */
