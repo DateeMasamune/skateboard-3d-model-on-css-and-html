@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded",  () => {
 
-  const trick = 'varialHeelFlip' //написать название анимации из списка ниже
+  const trick = 'flip' //написать название анимации из списка ниже
 
-  const duration = 5 //длительность анимации
+  const duration = 3 //длительность анимации
 
   const skateboard = document.querySelector('.skateboard')
   const shadow = document.querySelector('.shadow')
@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded",  () => {
  * impossible
  * ollie
  * hardFlip
+ * hardFlipV2
  * treeFlip
  * popShuvit
  * varialHeelFlip
