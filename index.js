@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",  () => {
 
-  const trick = 'flip' //написать название анимации из списка ниже
+  const trick = '' //написать название анимации из списка ниже
 
   const duration = 3 //длительность анимации
 
