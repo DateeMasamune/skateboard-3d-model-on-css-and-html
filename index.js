@@ -1,15 +1,39 @@
-document.addEventListener("DOMContentLoaded",  () => {
-
-  const trick = '' //написать название анимации из списка ниже
-
-  const duration = 3 //длительность анимации
+document.addEventListener("DOMContentLoaded", () => {
 
   const skateboard = document.querySelector('.skateboard')
   const shadow = document.querySelector('.shadow')
 
-  skateboard.style.animation = `${trick} ${duration}s linear infinite`
-	shadow.style.animation = `shadow ${duration}s linear infinite`
+  let currentTrick = 0
+  const duration = 4000   //длительность анимации
 
+  const tricks = [
+    'flip',
+    'impossible',
+    'ollie',
+    'hardFlip',
+    'hardFlipV2',
+    'treeFlip',
+    'popShuvit',
+    'varialHeelFlip',
+  ]
+
+  const initialTrick = (trick = 'flip') => {
+    skateboard.style.animation = `${trick} ${duration}ms linear infinite` //написать название анимации из списка ниже
+    shadow.style.animation = `shadow ${duration}ms linear infinite`
+  }
+
+  const updateTrick = () => {
+    const trick = tricks[currentTrick]
+    initialTrick(trick)
+  }
+
+  const nextTrick = () => {
+    currentTrick = (currentTrick + 1) % tricks.length
+    updateTrick()
+  }
+
+  const trickInterval = setInterval(nextTrick, duration)
+  initialTrick()
 });
 
 /**
