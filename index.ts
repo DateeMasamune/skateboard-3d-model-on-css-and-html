@@ -1,12 +1,15 @@
+type InitialTrickType = (trick?: string) => void
+type TricksType = string[]
+
 document.addEventListener("DOMContentLoaded", () => {
 
-  const skateboard = document.querySelector('.skateboard')
-  const shadow = document.querySelector('.shadow')
+  const skateboard: HTMLDivElement = document.querySelector('.skateboard')
+  const shadow: HTMLDivElement = document.querySelector('.shadow')
 
   let currentTrick = 0
   const duration = 4000   //длительность анимации
 
-  const tricks = [
+  const tricks: TricksType = [
     'flip',
     'impossible',
     'ollie',
@@ -17,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     'varialHeelFlip',
   ]
 
-  const initialTrick = (trick = 'flip') => {
+  const initialTrick: InitialTrickType = (trick = 'flip') => {
     skateboard.style.animation = `${trick} ${duration}ms linear infinite` //написать название анимации из списка ниже
     shadow.style.animation = `shadow ${duration}ms linear infinite`
   }

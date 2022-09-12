@@ -1,0 +1,22 @@
+{
+  "name": "skateboard-3d-model-on-css-and-html",
+  "version": "1.0.0",
+  "description": "*** #### made with css html ***  #### just open index.html in browser  *** #### to change the animation, you need to change the variable with name \"trick\" in index.js to the name from the list of tricks, you can also change the animation time in the variable \"duration\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DateeMasamune/skateboard-3d-model-on-css-and-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DateeMasamune/skateboard-3d-model-on-css-and-html/issues"
+  },
+  "homepage": "https://github.com/DateeMasamune/skateboard-3d-model-on-css-and-html#readme",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  }
+}
